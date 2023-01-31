@@ -114,13 +114,13 @@
             <thead>
                 <tr>
                     <th class="text-center" scope="col" style="width: 75%">Comments</th>
-                    <th class="text-center" scope="col">Sentiments</th>
+                    <th class="text-center" scope="col">Reviews</th>
                 </tr>
             </thead>
     
             <tbody>
 		      {% for review, status in reviews.items() if not reviews.hidden %}
-		      <tr style="background-color:#e5091485;">
+		      <tr style="background-color:black">
               	  <td>{{review}}</td>
 	              <td><center>
 	                  {{status}} : 
